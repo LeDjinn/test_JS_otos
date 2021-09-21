@@ -1,0 +1,29 @@
+.method {
+  margin-top: 40px;
+}
+.title {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.number {
+  margin-top: 5px;
+}
+
+.number-left {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.number-right {
+  margin-right: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .number-left {
+    margin-left: 0px;
+  }
+  .number-right {
+    margin-right: 0px;
+  }
+}

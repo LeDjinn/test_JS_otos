@@ -1,0 +1,26 @@
+.btn-custom {
+  font-weight: bold;
+  border: 1px solid #6226a9;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #6226a9;
+  color: white;
+}
+.custom {
+  background-color: #6226a9;
+  color: white;
+}
+.custom-button {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.custom-button:hover {
+  color: #77a9ec;
+  border-color: #6226a9;
+}
+.custom-body {
+  color: #6226a9;
+}

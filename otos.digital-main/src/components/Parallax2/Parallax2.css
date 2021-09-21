@@ -1,0 +1,12 @@
+.btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  color: #6226a9;
+  border-color: #6226a9;
+}

@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+}
+.logo {
+  display: block;
+  width: 100px;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.logo a,
+.logo a:hover,
+.logo a:visited,
+.logo a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.slogan {
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    top: 5px;
+    left: 20px;
+  }
+  .slogan {
+    top: 4px;
+  }
+}

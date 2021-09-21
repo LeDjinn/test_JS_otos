@@ -1,0 +1,133 @@
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/eshop.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card1:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/appWWeb2.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card2:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/pexels-snapwire-412842.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card3:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/blog.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card4:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/violetType2.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card5:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25ch;
+  height: 25ch;
+  margin-top: 50px;
+  background-image: url(../../images/portfolio.webp);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 8px solid #77a9ec;
+}
+
+.card6:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.font-color {
+  color: #ffff;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+.paddingtop {
+  padding-top: 150px;
+}
+
+.top-right {
+  position: absolute;
+  right: 0px;
+}

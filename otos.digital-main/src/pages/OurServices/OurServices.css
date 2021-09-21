@@ -1,0 +1,10 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+.test {
+  /* margin-top: 20px; */
+}

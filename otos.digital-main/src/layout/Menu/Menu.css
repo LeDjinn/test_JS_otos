@@ -1,0 +1,142 @@
+ul.menu {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+ul.menu li {
+  position: relative;
+}
+ul.menu li a,
+ul.menu li .dropdown-link {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+ul.menu li:hover {
+  background-color: #f5f5f5;
+  color: #6226a9;
+  transition-duration: 0.4s;
+  transition-property: background-color;
+}
+ul.child-menu {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  left: 0;
+  display: none;
+  padding: 20px;
+  min-width: 250px;
+  background: #eee;
+  box-shadow: -1px 18px 21px -22px rgba(0, 0, 0, 0.25);
+}
+ul.menu li:hover > .child-menu,
+ul.menu li .child-menu:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  animation: fadeIn 0.4s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ul.child-menu li {
+  padding: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #555;
+}
+ul.child-menu li:last-child {
+  margin-bottom: 0;
+}
+ul.child-menu li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 600;
+}
+ul.child-menu li .chevron {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  ul.menu {
+    flex-flow: column nowrap;
+    position: fixed;
+    z-index: 9998;
+    transform: translateX(100%);
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding: 4rem 1rem 0 1rem;
+    transition: transform 0.2s ease-in-out;
+    color: #555;
+    background: #f5f5f5;
+  }
+  ul.menu.open {
+    transform: translateX(0);
+  }
+  ul.menu li {
+    color: #555;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  ul.menu li:hover > .child-menu,
+  ul.menu li .child-menu:hover ul.menu li:last-child {
+    margin-bottom: 0;
+  }
+  ul.menu li:hover,
+  ul.child-menu li:hover {
+    background: transparent;
+    color: #555;
+  }
+  ul.menu li:hover > .child-menu,
+  ul.menu li .child-menu:hover {
+    animation: none;
+  }
+  ul.menu li a.active,
+  ul.child-menu li a.active {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(38, 40, 51);
+  }
+  ul.child-menu {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  ul.menu li .dropdown-link {
+    color: #aaa;
+  }
+  ul.child-menu li a {
+    display: block;
+    padding: 10px 0 10px 20px;
+  }
+  ul.child-menu li .chevron {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

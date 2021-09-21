@@ -1,0 +1,58 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar.active {
+  background-color: #77a9ec;
+}
+.navbar.active:hover {
+  background-color: #6226a9;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #6226a9;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #6226a9 !important;
+}
+
+.navbar-nav > .li > .a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+}
+.a:hover,
+.a:active,
+.a:focus {
+  color: #6226a9;
+  border: 1px solid #6226a9;
+}
+.a:visited {
+  color: #6226a9;
+  text-decoration: none;
+}
+
+.dropdown-item {
+  color: #6226a9;
+}
+
+.dropdown-item:hover {
+  color: #77a9ec;
+}

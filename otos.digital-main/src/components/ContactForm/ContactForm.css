@@ -1,0 +1,25 @@
+.alert-message {
+  color: #bf1650;
+  margin-top: 2px;
+}
+
+.alert-message::before {
+  display: inline;
+  content: "⚠ ";
+}
+.form {
+  background-color: blueviolet;
+}
+.button-form {
+  background-color: transparent;
+  color: #77a9ec;
+  border: 1px solid #77a9ec;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.button-form:hover {
+  color: #6226a9;
+  border-color: #6226a9;
+}

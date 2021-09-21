@@ -1,0 +1,17 @@
+.title {
+  margin: 40px 0 20px;
+}
+.cards-top {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.cards-bottom {
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: auto;
+}

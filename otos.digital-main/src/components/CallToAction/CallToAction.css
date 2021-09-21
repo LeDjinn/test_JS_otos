@@ -1,0 +1,12 @@
+
+
+.action-button {
+  background-color: #6226a9;
+}
+.call-to-action {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

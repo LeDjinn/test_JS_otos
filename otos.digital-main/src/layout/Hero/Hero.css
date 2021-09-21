@@ -1,0 +1,35 @@
+.header {
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.header.accueil {
+  height: 80vh;
+  width: 100%;
+  background-image: url('../../images/pexels-scott-webb-532561.webp');
+}
+.header.services {
+  background-image: url('../../images/pexels-jimmy-chan-1055297.webp');
+}
+.header.methodologie {
+  background-image: url('../../images/pexels-brett-sayles-2006006.webp');
+}
+.header.notre-adn {
+  background-image: url('../../images/pexels-burst-374023.webp');
+}
+.header.nous-contacter {
+  background-image: url('../../images/office-building-skyscrapers-with-room-for-text-picjumbo-com.webp');
+}
+.header.mentions-legales {
+  background-image: url('../../images/mentions-legales.webp');
+}
+
+.encore {
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  .header-home .header-notre-adn {
+    background-position: 50% 50%;
+  }
+}
